@@ -24,6 +24,7 @@
 }
 .apresentacao__links__navegacao__icone {
     filter:hue-rotate(1000deg);
+
 }
 .cabecalho {
     padding: 2% 0 0 15%;
@@ -34,6 +35,8 @@
 }
 .cabecalho__menu {
     display: flex;
+    justify-content: flex-start ;
+    align-items: center;
     gap: 80px;
 }
 .cabecalho__menu__link {
@@ -73,6 +76,8 @@ body {
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 .apresentacao__imagem {
     width: 50%;
@@ -146,6 +151,11 @@ body {
     }
     .cabecalho__menu {
         justify-content: center;
+        width: max-content;
+        gap: 32px;
+    }
+    .cabecalho__menu__link {
+        font-size: 1.1rem;
     }
     .apresentacao {
         flex-direction: column-reverse;
